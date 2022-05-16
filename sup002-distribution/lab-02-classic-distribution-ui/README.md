@@ -6,7 +6,7 @@ Goal of this lab to is to create a release bundle and distribute the release bun
 
 ### Prerequisites 
 
-### Step 1 - Environment ready check 
+### Section 1 - Environment ready check 
 
 - Login to your saas instance **{{instance_name}}**.jfrog.io with  your admin credentials
 - Click on Artifacts on the left hand side menu 
@@ -21,13 +21,14 @@ Goal of this lab to is to create a release bundle and distribute the release bun
 
 
 
-
 *******************************************************************************************************************
-**NOTE: If you do not see the above data configured then please go through step 2. or you can use sup002-distribution/scripts/setup.sh to populate repositories using JFROG CLI **. Step 2 can be skipped if the step 1 has no issues 
+**NOTE: If you do not see teh data configured in the above step then please go through the section 2 and create the data . 
+Or You can use SU-201-Intro-to-JFrog-Xray/scripts/setup.sh to populate repositories using JFROG CLI **
+.You can skip Section 2 and go to section 3 if teh required data is present in the instance as shown in section 1  
 *******************************************************************************************************************
 
 
-### Step 2 - Create Repositories in JFrog Artifactory ( Run the below steps only if step 1 is not succeeded) 
+### TO-DO - Section 2 - Create Repositories in JFrog Artifactory ( Run the below steps only if section 1 validation is not succeeded) 
 
 - Login to your saas instance **{{instance_name}}**.jfrog.io with  your admin credentials
 - Nevigate to Welcome, **{{user}}** from top right
@@ -42,7 +43,8 @@ Goal of this lab to is to create a release bundle and distribute the release bun
 ![create_repos](https://user-images.githubusercontent.com/7561138/117177841-4f254e80-ad86-11eb-8184-20ffbe5c7af9.gif)
 
 
-### Steps 3
+### Section 3 
+  
 - Go to Distribution Menu -> Release Bundles on the left side menu 
   
   ![](../.images/click%20on%20Distribution.png)
