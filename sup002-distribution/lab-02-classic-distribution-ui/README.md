@@ -1,4 +1,8 @@
-# SU-201 Intro to Distribution 
+# SUP-002 Distribution 
+
+
+## Goal 
+Goal of this lab to is to create a release bundle and distribute the release bundle version 1.0 to the available edge nodes and validate using the Jfrog UI 
 
 ### Prerequisites 
 
@@ -7,17 +11,19 @@
 - Login to your saas instance **{{instance_name}}**.jfrog.io with  your admin credentials
 - Click on Artifacts on the left hand side menu 
   <Insert image>
-- Make sure below repositories are created as shown in the image  below 
+- Make sure below repositories and its content are created as shown in the image 
+  
       - sup002-swampup-maven-dev-local
+  
       - sup002-swampup-npm-dev-local
-  < Insert Image >
+  
+  ![](../.images/repo-verify.png)
 
 
 
 
 *******************************************************************************************************************
-**NOTE: If you do not see those steps configured then please go through all steps. or you can use SU-201-Intro-to-JFrog-Xray/scripts/setup.sh to populate repositories using JFROG CLI **
-.You can skip step 2 if the step 1 has no issues 
+**NOTE: If you do not see the above data configured then please go through step 2. or you can use sup002-distribution/scripts/setup.sh to populate repositories using JFROG CLI **. Step 2 can be skipped if the step 1 has no issues 
 *******************************************************************************************************************
 
 
