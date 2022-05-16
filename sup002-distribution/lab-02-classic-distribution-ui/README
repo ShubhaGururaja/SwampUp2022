@@ -37,7 +37,8 @@
 
 
 ### Steps 3
-- Create Release Bundle 
+- Go to ![Distribution menu](.images/ and create a Release bundle 
+  
 
 
 - Enter Name , Version and Description as shown  and click Add AQL Query 
