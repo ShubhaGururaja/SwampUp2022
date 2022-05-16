@@ -30,7 +30,7 @@ https://github.com/jfrog/SwampUp2022/blob/main/sup002-distribution/
       - Select save and continue 
       - JFrog access token <Leave blank for username and password/API key>
       - JFrog username <Same username used to login to the instance>
-      - JFrog password or API key <Password or API key https://www.jfrog.com/confluence/display/JFROG/User+Profile#UserProfile-APIKey >
+      - JFrog password or API key <Password or API key https://www.jfrog.com/confluence/display/JFROG/User+Profile#UserProfile-APIKey . API key is recommended and please save the APIkey for further usage >
 
 ## Environment ready check 
 
