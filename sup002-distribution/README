@@ -1,75 +1,12 @@
-# SU-201 Intro to Distribution 
+#3 Welcome to the swamip course
 
-### Prerequisites 
+## Add the links to presentation and labs  
 
-### Step 1 - Environment ready check 
+## add the link to Github Repo 
 
-- Login to your saas instance **{{instance_name}}**.jfrog.io with  your admin credentials
-- Click on Artifacts on the left hand side menu 
-  <Insert image>
-- Make sure below repositories are created as shown in the image  below 
-      - sup002-swampup-maven-dev-local
-      - sup002-swampup-npm-dev-local
-  < Insert Image >
+## set up Jfrog CLI 
 
-
-
-
-*******************************************************************************************************************
-**NOTE: If you do not see those steps configured then please go through all steps. or you can use SU-201-Intro-to-JFrog-Xray/scripts/setup.sh to populate repositories using JFROG CLI **
-.You can skip step 2 if the step 1 has no issues 
-*******************************************************************************************************************
-
-
-### Step 2 - Create Repositories in JFrog Artifactory ( Run the below steps only if step 1 is not succeeded) 
-
-- Login to your saas instance **{{instance_name}}**.jfrog.io with  your admin credentials
-- Nevigate to Welcome, **{{user}}** from top right
-- Click on dropdown and select **Quick Setup**
-- Select Package Type **NPM** click **Next**
-- Enter repository name **su201** and click **Create**
-- Download the hello world apps and upload 
-- Now, lets create NPM package 
-- Enter repository name **su201** and click **Create**
-- Download the hello world apps and upload 
-
-![create_repos](https://user-images.githubusercontent.com/7561138/117177841-4f254e80-ad86-11eb-8184-20ffbe5c7af9.gif)
-
-
-### Steps 3
-- Create Release Bundle 
-![create_Release bundle](.images/2.png)
-
-
-- Enter Name , Version and Description as shown  and click Add AQL Query 
-
-
-- Paste the below AQL Query and click Next 
-
-
-- Add the following key value pair and click NExt 
-
-
-- Preview all the artifacts that AQL query collected and validate 
-
-
-- Click on create and sign 
-
-
-- Verify if release bundle is created 
-
-
-- Click on Distribute Release Bundle 
-
-
-- select all the edge nodes
-
-- Distrubute 
-
-- validate the release bundle is distributed 
-
-- click on release bundle to see it is distributed to edge nodes
-
+## set up the Data 
 
 
 
