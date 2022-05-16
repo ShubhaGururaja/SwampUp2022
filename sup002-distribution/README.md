@@ -43,7 +43,7 @@ https://github.com/jfrog/SwampUp2022/blob/main/sup002-distribution/
   
       - sup002-swampup-npm-dev-local
   
-  ![](../.images/repo-verify.png)
+  ![](.images/repo-verify.png)
 
 - If the data is not present on the instance , Please let the Jfrog Team know about it 
 
