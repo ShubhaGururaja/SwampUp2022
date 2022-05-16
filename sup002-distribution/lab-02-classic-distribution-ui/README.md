@@ -37,39 +37,47 @@
 
 
 ### Steps 3
-- Go to ![Distribution menu](/../.images/2.png) and create a Release bundle 
+- Go to Distribution Menu -> Release Bundles on the left side menu 
   
+  ![](../.images/click%20on%20Distribution.png)
+    
+ -  Create a Release bundle 
+  
+   ![Distribution menu](../.images/2.png) 
 
+- Enter Name,Version and Description as shown and click Add AQL Query 
 
-- Enter Name , Version and Description as shown  and click Add AQL Query 
+   ![](../.images/5.png)
 
-
-- Paste the below AQL Query and click Next 
-
-
+- Paste the below AQL Query and click Next . AQL Query fetches the required artifacts needed to be added to the bundle 
+   ![](../.images/6.png)
+    
 - Add the following key value pair and click NExt 
-
+   ![](../.images/7.png)
 
 - Preview all the artifacts that AQL query collected and validate 
-
+  ![](../.images/7-1.png)
 
 - Click on create and sign 
-
+  ![](../.images/8.png)
 
 - Verify if release bundle is created 
-
+    ![](../.images/9.png)
 
 - Click on Distribute Release Bundle 
-
+   ![](../.images/10.png)
 
 - select all the edge nodes
-
+  ![](../.images/11.png)
+    
 - Distrubute 
-
+  ![](../.images/12.png)
+    
 - validate the release bundle is distributed 
-
+  ![](../.images/13.png)
+    
 - click on release bundle to see it is distributed to edge nodes
-
+  ![](../.images/15.png)
 
 
 
