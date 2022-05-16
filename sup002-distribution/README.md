@@ -1,11 +1,36 @@
-## TO-DO Welcome to the swamup course
+# Welcome to Swampup2022-SUP-002-Distribution
 
-## Add the links to presentation and labs  
+# Setup
 
-## Add the link to Github Repo 
+Reminder: if you're lost, please contact the crew!
+
+## Source code
+
+- Open Github repository https://github.com/jfrog/SwampUp2022 in a browser
+- Navigate to sup002-distribution folder
+
+```bash
+https://github.com/jfrog/SwampUp2022/blob/main/sup002-distribution/
+```
+
+## Requirements
+
+- SaaS JFrog Platform instance
+- Command prompt - Windows or Linux with curl installed
 
 ## Set up Jfrog CLI 
 
+- Download Jfrog cli here https://jfrog.com/getcli/
+- Once the Jfrog CLI is successfully downloaded , open the terminal and start configuring CLI to integrate with your instance 
+- Run the below command and follow the prompt
+      `jf config add`
+      
+      - Choose a server ID  <Give an id  Example - atlanta-jpd-platform>
+      - JFrog platform URL  <Instance name  Example krishnaj.jfrig.io>
+      - Select save and continue 
+      - JFrog access token <Leave blank for username and password/API key>
+      - JFrog username <Same username used to login to the instance>
+      - JFrog password or API key <Password or API key https://www.jfrog.com/confluence/display/JFROG/User+Profile#UserProfile-APIKey >
 
 ## Environment ready check 
 
@@ -20,31 +45,10 @@
   
   ![](../.images/repo-verify.png)
 
-
-
-*******************************************************************************************************************
-**NOTE: If you do not see teh data configured in the above step then please go through the section 2 and create the data . 
-Or You can use SU-201-Intro-to-JFrog-Xray/scripts/setup.sh to populate repositories using JFROG CLI **
-.You can skip Section 2 and go to section 3 if teh required data is present in the instance as shown in section 1  
-*******************************************************************************************************************
-
-
-### TO-DO - Section 2 - Create Repositories in JFrog Artifactory ( Run the below steps only if section 1 validation is not succeeded) 
-
-- Login to your saas instance **{{instance_name}}**.jfrog.io with  your admin credentials
-- Nevigate to Welcome, **{{user}}** from top right
-- Click on dropdown and select **Quick Setup**
-- Select Package Type **NPM** click **Next**
-- Enter repository name **su201** and click **Create**
-- Download the hello world apps and upload 
-- Now, lets create NPM package 
-- Enter repository name **su201** and click **Create**
-- Download the hello world apps and upload 
-
-![create_repos](https://user-images.githubusercontent.com/7561138/117177841-4f254e80-ad86-11eb-8184-20ffbe5c7af9.gif)
+- If the data is not present on the instance , Please let the Jfrog Team know about it 
 
 ## Documentation on Distribution 
 
-
+https://www.jfrog.com/confluence/display/JFROG/JFrog+Distribution
 
 
