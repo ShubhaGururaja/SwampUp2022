@@ -1,0 +1,4 @@
+- How the data gets created in the attendees instances 
+- what if the data is not present and workaround for it ?
+- used maven and npm for release bundle - do we need to add more like docker images or helm charts 
+- how edge nodes gets created ? what are the names for it so the queries will work 
