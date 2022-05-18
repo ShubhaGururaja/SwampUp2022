@@ -9,7 +9,7 @@
     },
  "distribution_rules": [
     {
-      "site_name": "*edge*",
+      "site_name": "*edge*"
     }
   ]
 }
