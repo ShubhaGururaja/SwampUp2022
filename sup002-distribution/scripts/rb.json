@@ -2,40 +2,35 @@
   "files": [
     {
       "aql": {
-        "items.find": {
-          "repo": "sup002-swampup-maven-dev-local",
-          "$or": [
-            {
-              "$and": [
-                {
-                  "path": {
-                    "$match": "*"
-                  },
-                  "name": {
-                    "$match": "hello-world-2.0.jar"
-                  }
-                }
-              ]
-            }
-          ],
-         "repo": "sup002-swampup-npm-dev-local",
-          "$or": [
-            {
-              "$and": [
-                {
-                  "path": {
-                    "$match": "*"
-                  },
-                  "name": {
-                    "$match": "hello-world-ui-2.0.tgz"
-                  }
-                }
-              ]
-            }
-          ]
-
-        }
-      }
-    }
-  ]
+	     "items.find":{
+	"$and": [
+		{
+			"$or": [
+				{
+					"repo": {
+						"$eq": "sup002-swampup-maven-dev-local"
+					}
+				},
+				{
+					"repo": {
+						"$eq": "sup002-swampup-npm-dev-local"
+					}
+				}
+			]
+		},
+		{
+			"$and": [
+				{
+					"name": {
+						"$match": "hello-world-*-2.0.*"
+					}
+				}
+			]
+		}
+	]
 }
+                  }
+                }
+              ]
+            }
+

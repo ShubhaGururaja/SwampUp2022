@@ -2,7 +2,11 @@
   "dry_run": false,
   "distribution_rules": [
     {
-      "site_name": "Edge1"
-    }
+      "site_name": "krishnajedge01"
+    },
+    {
+      "site_name":"krishnajedge02"
+	     }
+
   ]
 }
