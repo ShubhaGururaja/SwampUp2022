@@ -28,7 +28,7 @@ https://github.com/jfrog/SwampUp2022/blob/main/sup002-distribution/
       `jf config add`
       
       - Choose a server ID  <Give an id  Example - atlanta-jpd-platform>
-      - JFrog platform URL  <Instance name  Example krishnaj.jfrig.io>
+      - JFrog platform URL  <Instance name  Example krishnaj.jfrog.io>
       - Select save and continue 
       - JFrog access token <Leave blank for username and password/API key>
       - JFrog username <Same username used to login to the instance>
