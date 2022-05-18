@@ -25,7 +25,7 @@ curl -u -v <username>:<password or API Key> --request GET 'https://<instance nam
 
   - Enable CDN by going to Admin->Repositories->sup002-swampup-maven-dev-local->Advanced->Enable CDN 
        
-       ![]()
+       ![](https://github.com/Krishnaj-jfrog/SwampUp2022/blob/main/sup002-distribution/.images/cdn.png)
 
 
 #### Download the binary with  CDN enabled
