@@ -21,7 +21,7 @@ curl -u <username>:<password or API Key> --request POST 'https://<instance name>
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
 -T dynamic_release_bundle.json
-}
+
 ```
   
 
