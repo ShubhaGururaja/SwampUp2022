@@ -16,9 +16,10 @@ https://github.com/jfrog/SwampUp2022/blob/main/sup002-distribution/
 ## Requirements
 
 - SaaS JFrog Platform instance
+- Clone the [git repo](https://github.com/jfrog/SwampUp2022) 
 - Command prompt - Windows or Linux with curl installed
 - Jfrog CLI installed ( check the below section for setting up CLI ) 
-- Set up API keys (Click on username on right top -> Edit user profile ->Enter password -> generate API Key and save it. Follow this doc for more details ) 
+- Set up API keys (Click on username on right top -> Edit user profile ->Enter password -> generate API Key and save it. Follow this [doc](https://www.jfrog.com/confluence/display/JFROG/User+Profile#UserProfile-APIKey) for more details ) 
 
 ## Set up Jfrog CLI 
 
@@ -28,17 +29,16 @@ https://github.com/jfrog/SwampUp2022/blob/main/sup002-distribution/
       `jf config add`
       
       - Choose a server ID  <Give an id  Example - atlanta-jpd-platform>
-      - JFrog platform URL  <Instance name  Example krishnaj.jfrog.io>
+      - JFrog platform URL  < Your instance name  Example atl-prd.jfrog.io>
       - Select save and continue 
       - JFrog access token <Leave blank for username and password/API key>
       - JFrog username <Same username used to login to the instance>
-      - JFrog password or API key <Password or API key https://www.jfrog.com/confluence/display/JFROG/User+Profile#UserProfile-APIKey . API key is recommended and please save the APIkey for further usage >
+      - JFrog password or API key <Password or API key https://www.jfrog.com/confluence/display/JFROG/User+Profile#UserProfile-APIKey . API key is recommended>
 
 ## Environment ready check 
 
-- Login to your saas instance **{{instance_name}}**.jfrog.io with  your admin credentials
+- Login to your saas instance <instance_name>.jfrog.io with your admin credentials
 - Click on Artifacts on the left hand side menu 
-  <Insert image>
 - Make sure below repositories and its content are created as shown in the image 
   
       - sup002-swampup-maven-dev-local
@@ -47,8 +47,8 @@ https://github.com/jfrog/SwampUp2022/blob/main/sup002-distribution/
   
   ![](.images/repo-verify.png)
 
-- If the data is not present on the instance , Please let the Jfrog Team know about it 
-- Make sure the JPD platform has Edge nodes added to the instance and are Online . Go to settings menu -> Platform Management -> Registered JPDs
+- If the above data is not present on the instance , Please let the Jfrog Team know about it 
+- Make sure the JPD platform has Edge nodes added to the instance and are Online . Go to settings menu -> Platform Management -> Registered JPDs to validate
 
 ## Documentation on Distribution 
 
