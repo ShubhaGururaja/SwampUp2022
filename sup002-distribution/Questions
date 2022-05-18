@@ -3,3 +3,4 @@
 - used maven and npm for release bundle - do we need to add more like docker images or helm charts 
 - how edge nodes gets created ? what are the names for it so the queries will work 
 - Does identity tokens work for distribution ? Can we ask attendees to use API keys as they are going to get deprecrated ?
+- Any naming convention to be followed for the artifacts ? I have bunch of hello worlds 
