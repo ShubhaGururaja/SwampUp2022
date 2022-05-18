@@ -6,11 +6,11 @@ Goal of this lab to is to create a release bundle and distribute the release bun
 
 ### Prerequisites 
 
-- Please make sure data is present and JFROG CLI is installed and configured 
+- Jfrog CLI is installed and configured . Refer to this link on how to configure [CLI](https://github.com/Krishnaj-jfrog/SwampUp2022/tree/main/sup002-distribution#set-up-jfrog-cli) 
 
 ### Distribution 
 
-Below commands need to be run from the scripts directory . Please make sure the [git repo](https://github.com/jfrog/SwampUp2022) is cloned to your local workspace .  
+Below commands need to be run from the scripts directory . Please make sure the [git repo](https://github.com/jfrog/SwampUp2022) is downlaoded/cloned to your local workspace .  
 
 - Create a Release bundle . 
   
