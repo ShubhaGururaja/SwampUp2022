@@ -2,7 +2,7 @@
   "dry_run": false,
   "distribution_rules": [
     {
-      "site_name": "edge01" //Make sure the edge nodes names are correct according to your instance 
+      "site_name": "edge01"  
     },
     {
       "site_name":"edge02"
