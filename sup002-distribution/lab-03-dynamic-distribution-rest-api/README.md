@@ -17,6 +17,7 @@ Below commands need to be run from the scripts directory . Please make sure the 
 curl --request POST 'https://<instance name>/distribution/api/v1/dynamic/distribute' \
 --header 'Authorization: Basic a3Jpc2huYWpAamZyb2cuY29tOkx1Y2t5QDYxOTM=' \
 --header 'Content-Type: application/json' \
--d dynamic_release_bundle.json
+--header 'Accept: application/json' \
+-T dynamic_release_bundle.json
 }
 ```
