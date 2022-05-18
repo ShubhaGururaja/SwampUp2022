@@ -47,7 +47,7 @@ https://github.com/jfrog/SwampUp2022/blob/main/sup002-distribution/
   
   ![](.images/repo-verify.png)
 
-- If the above data is not present on the instance , Please let the Jfrog Team know about it 
+- If the above  data is not present on the instance , Please let the Jfrog Team know about it 
 - Make sure the JPD platform has Edge nodes added to the instance and are Online . Go to settings menu -> Platform Management -> Registered JPDs to validate
 
 ## Documentation on Distribution 
