@@ -17,6 +17,8 @@ https://github.com/jfrog/SwampUp2022/blob/main/sup002-distribution/
 
 - SaaS JFrog Platform instance
 - Command prompt - Windows or Linux with curl installed
+- Jfrog CLI installed ( check the below section for setting up CLI ) 
+- Set up API keys (Click on username on right top -> Edit user profile ->Enter password -> generate API Key and save it. Follow this doc for more details ) 
 
 ## Set up Jfrog CLI 
 
