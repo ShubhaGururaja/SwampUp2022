@@ -14,7 +14,7 @@ Below commands need to be run from the scripts directory . Please make sure the 
 
 - Create a Release bundle . 
   
-  Below commands takes rb.json as input which has the AQL query defined to collect all the artifacts that needs to be part of release bundle . Type `jf ds release-bundle-create` to explore the options 
+  Below commands takes `rb.json` as one of the inputs which has the AQL query defined to collect all the artifacts that needs to be part of release bundle . Type `jf ds release-bundle-create` to explore the options 
  
  ```
   cd <git repo cloned>
@@ -32,7 +32,7 @@ Below commands need to be run from the scripts directory . Please make sure the 
 
 - Distribute a release bundle
 
-  Below command takes distribute_rules.json as one of the inputs which has the edge nodes defined for the release bundle to be distributed . Take a look at the json file to make sure the edge nodes are matching the ones that are on your instances .
+  Below command takes `distribute_rules.json` as one of the inputs which has the edge nodes defined for the release bundle to be distributed . Take a look at the json file to make sure the edge nodes are matching the ones that are on your instances .
 Run the `jf ds release-bundle-distribute` to explore the options
 
 
