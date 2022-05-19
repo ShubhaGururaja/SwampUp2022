@@ -29,7 +29,6 @@ Goal of this lab to is to create a release bundle and distribute the release bun
 		{
 			"$or": [
 				{
-				{
 					"repo": {
 						"$eq": "sup002-swampup-maven-dev-local"
 					}
@@ -55,9 +54,8 @@ Goal of this lab to is to create a release bundle and distribute the release bun
 				}
 			]
 		}
-	]})
-  
-  ```
+	]}).include("sha256","updated","modified_by","created","id","original_md5","depth","actual_sha1","property.value","modified","property.key","actual_md5","created_by","type","name","repo","original_sha1","size","path")
+   ```
    ![](../.images/6.png)
     
 - Add the following key value pair and click NExt 
