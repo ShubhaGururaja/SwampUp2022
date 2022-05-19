@@ -1,5 +1,5 @@
 {
-    "key": "sup002-swampup-maven-dev-local-test",
+    "key": "sup002-swampup-maven-dev-local",
     "rclass": "local",
     "packageType": "maven",
     "description": "The local MAVEN repository"
