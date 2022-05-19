@@ -22,6 +22,42 @@ Goal of this lab to is to create a release bundle and distribute the release bun
    ![](../.images/5.png)
 
 - Paste the below AQL Query and click Next . AQL Query fetches the required artifacts needed to be added to the bundle 
+
+   ```
+   items.find({
+	"$and": [
+		{
+			"$or": [
+				{
+				{
+					"repo": {
+						"$eq": "sup002-swampup-maven-dev-local"
+					}
+				},
+				{
+					"repo": {
+						"$eq": "sup002-swampup-npm-dev-local"
+					}
+				}
+			]
+		},
+		{
+			"$or": [
+				{
+					"name": {
+						"$match": "hello-world-api-1.0.jar"
+					}
+				},
+				{
+					"name": {
+						"$match": "hello-world-ui-1.0.tgz"
+					}
+				}
+			]
+		}
+	]})
+  
+  ```
    ![](../.images/6.png)
     
 - Add the following key value pair and click NExt 
