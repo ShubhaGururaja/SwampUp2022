@@ -13,6 +13,7 @@ Goal of this lab to is to enable Amazon's CloudFront CDN for the repositories an
 #### Download the binary with out the CDN enabled  
 
 Run the below cURL command and inspect the output where the "HTTP/1.1 302 Found" string will be found and the binary gets downloaded from the S3 
+Replace the variables <username> , <password or API Key> and <instance name> based on your instance in the below command and execute it 
 
 ```
 
