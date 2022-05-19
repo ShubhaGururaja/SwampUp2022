@@ -20,7 +20,7 @@ cd <git repo cloned>
 curl -u <username>:<password or API Key> --request POST 'https://<instance name>/distribution/api/v1/dynamic/distribute' \
 --header 'Content-Type: application/json' \
 --header 'Accept: application/json' \
--T dynamic_release_bundle.json
+-T dynamic-distribution.json
 
 ```
   
