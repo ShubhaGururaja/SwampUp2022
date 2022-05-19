@@ -1,14 +1,11 @@
 #!/bin/sh
 # exit when any command fails
 #set -e
-
+#Following script creates repos and data 
 _user=$1
 _password=$2
 _url=$3
 
-
-#create_validate_data 'npm' 'tgz' 'ui'
-#create_validate_data 'maven' 'jar' 'api'
 
 create_validate_data(){
     repo_name=sup002-swampup-$1-dev-local #derive from what is written in json file 
