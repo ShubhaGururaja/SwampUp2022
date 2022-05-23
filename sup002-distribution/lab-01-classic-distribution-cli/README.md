@@ -29,6 +29,18 @@ Below commands need to be run from the scripts directory . Please make sure the 
   ```
   jf ds release-bundle-sign  'swampup-release-2022' '2.0' 
   ```
+- Check for the relevant repositories in the Target instance. If the repos have not been created, use the below Rest API.
+  curl -v --request PUT "https://sup002epsuedgeXX.jfrog.io/artifactory/api/repositories/sup002-swampup-maven-dev-local" --header "X-JFrog-Art-Api: <API_KEY>" --header 'Content-Type: application/json' --data-raw '{
+"rclass": "local",
+"packageType": "maven",
+"description": "A Test maven Repository"
+}'
+
+curl -v --request PUT "https://sup002epsuedgeXX.jfrog.io/artifactory/api/repositories/sup002-swampup-npm-dev-local" --header "X-JFrog-Art-Api: <API_KEY>" --header 'Content-Type: application/json' --data-raw '{  
+"rclass": "local",
+"packageType": "npm",  
+"description": "A Test npm Repository"  
+}'
 
 - Distribute a release bundle
 
