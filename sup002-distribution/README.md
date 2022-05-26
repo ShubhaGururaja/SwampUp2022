@@ -2,7 +2,7 @@
 
 ### Source code
 
-- Open Github repository https://github.com/jfrog/SwampUp2022 in a browser
+- Open Github repository [https://github.com/jfrog/SwampUp2022](https://github.com/ShubhaGururaja/SwampUp2022) in a browser
 - Navigate to sup002-distribution folder
 
 ```bash
