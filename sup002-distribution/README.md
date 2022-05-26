@@ -2,17 +2,17 @@
 
 ### Source code
 
-- Open Github repository [https://github.com/jfrog/SwampUp2022](https://github.com/ShubhaGururaja/SwampUp2022) in a browser
+- Open Github repository https://github.com/ShubhaGururaja/SwampUp2022 in a browser
 - Navigate to sup002-distribution folder
 
 ```bash
-https://github.com/jfrog/SwampUp2022/blob/main/sup002-distribution/
+https://github.com/ShubhaGururaja/SwampUp2022/blob/main/sup002-distribution/
 ```
 
 #### Requirements
 
 - SaaS JFrog Platform instance
-- Clone/Download the [git repo](https://github.com/jfrog/SwampUp2022) 
+- Clone/Download the [git repo](https://github.com/ShubhaGururaja/SwampUp2022)
 - Command prompt - Windows or Linux with cURL installed (cURL should be installed by default on terminal( Linux/mac) and using powershell(windows))
 - Jfrog CLI installed ( check the below section for setting up CLI ) 
 - Set up API keys (Click on username on right top -> Edit user profile ->Enter password -> generate API Key and save it. Follow this [doc](https://www.jfrog.com/confluence/display/JFROG/User+Profile#UserProfile-APIKey) for more details ) 
